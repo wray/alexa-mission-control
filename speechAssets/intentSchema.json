@@ -1,0 +1,61 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "tech em mission control",
+            "intents": [
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "Arm",
+                    "slots": [],
+                    "samples": [
+                        "Arm",
+                        "Arm ignition",
+                        "Arm for launch",
+                        "Prepare for launch",
+                        "Ready for launch"
+                    ]
+                },
+                {
+                    "name": "LaunchMyRocket",
+                    "slots": [],
+                    "samples": [
+                        "Launch my rocket",
+                        "Launch the rocket",
+                        "Blast Off",
+                        "Commence Launch"
+                    ]
+                },
+                {
+                    "name": "ConfirmLaunch",
+                    "slots": [],
+                    "samples": [
+                        "Roger",
+                        "Ok",
+                        "Proceed",
+                        "Go Rocket",
+                        "Go",
+                        "Go for launch",
+                        "Roger Roger",
+                        "All Systems Go"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": [
+                        "No",
+                        "Abort",
+                        "Halt",
+                        "Stop",
+                        "Cancel",
+                        "Disarm",
+                        "Negative"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
